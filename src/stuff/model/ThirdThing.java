@@ -29,4 +29,10 @@ public class ThirdThing extends SubThing implements UnDoAble
 		
 		return temp;
 	}
+	
+	public void doesThat()
+	{
+		System.out.println("sub class version");
+		super.doesThat();
+	}
 }
